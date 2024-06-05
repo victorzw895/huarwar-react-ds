@@ -1,8 +1,8 @@
 module.exports = {
 	extends: ['@commitlint/config-conventional'],
 	rules: {
-		'subject-case': [2, 'never'],
-		'body-empty': [2, 'always'],
+		'subject-empty': [2, 'always'],
+		'body-empty': [2, 'never'],
 		'footer-empty': [2, 'always'],
 	},
 };
